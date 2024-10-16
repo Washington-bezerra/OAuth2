@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: ResourceOwner
+
+  data:
+    mongodb:
+      uri: mongodb-resource-owner://root:example@localhost:27018/resource-owner
