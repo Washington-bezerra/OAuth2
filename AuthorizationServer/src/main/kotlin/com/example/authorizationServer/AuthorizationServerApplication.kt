@@ -1,4 +1,4 @@
-package com.example.AuthorizationServer
+package com.example.authorizationServer
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
