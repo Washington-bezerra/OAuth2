@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: resourceServe
+    port: 8080
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: resourceServe

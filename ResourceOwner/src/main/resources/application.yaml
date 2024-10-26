@@ -7,4 +7,4 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb-resource-owner://root:example@localhost:27018/resource-owner
+      uri: mongodb://localhost:27017/resource-owner
