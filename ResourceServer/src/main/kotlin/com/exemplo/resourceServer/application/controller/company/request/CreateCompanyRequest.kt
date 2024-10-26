@@ -1,4 +1,4 @@
-package com.exemplo.resourceServer.application.controller.request
+package com.exemplo.resourceServer.application.controller.company.request
 
 data class ContactRequest (
     val email: String,

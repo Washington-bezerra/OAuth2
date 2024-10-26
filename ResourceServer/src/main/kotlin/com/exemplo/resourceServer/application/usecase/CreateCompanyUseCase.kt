@@ -1,6 +1,6 @@
 package com.exemplo.resourceServer.application.usecase
 
-import com.exemplo.resourceServer.application.controller.request.CreateCompanyRequest
+import com.exemplo.resourceServer.application.controller.company.request.CreateCompanyRequest
 import com.exemplo.resourceServer.boudaries.mapper.CompanyMapper
 import com.exemplo.resourceServer.infra.entity.Company
 import com.exemplo.resourceServer.infra.repository.CompanyRepository

@@ -1,6 +1,6 @@
 package com.exemplo.resourceServer.boudaries.mapper
 
-import com.exemplo.resourceServer.application.controller.request.CreateCompanyRequest
+import com.exemplo.resourceServer.application.controller.company.request.CreateCompanyRequest
 import com.exemplo.resourceServer.infra.entity.Company
 import com.exemplo.resourceServer.infra.entity.Contact
 import java.util.UUID

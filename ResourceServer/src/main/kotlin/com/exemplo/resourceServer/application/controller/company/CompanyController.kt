@@ -1,7 +1,7 @@
-package com.exemplo.resourceServer.application.controller
+package com.exemplo.resourceServer.application.controller.company
 
-import com.exemplo.resourceServer.application.controller.request.CreateCompanyRequest
-import com.exemplo.resourceServer.application.controller.response.CreateCompanyResponse
+import com.exemplo.resourceServer.application.controller.company.request.CreateCompanyRequest
+import com.exemplo.resourceServer.application.controller.company.response.CreateCompanyResponse
 import com.exemplo.resourceServer.application.usecase.CreateCompanyUseCase
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
