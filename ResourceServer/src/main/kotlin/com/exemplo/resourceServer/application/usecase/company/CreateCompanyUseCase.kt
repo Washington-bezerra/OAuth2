@@ -1,9 +1,9 @@
-package com.exemplo.resourceServer.application.usecase
+package com.exemplo.resourceServer.application.usecase.company
 
 import com.exemplo.resourceServer.application.controller.company.request.CreateCompanyRequest
-import com.exemplo.resourceServer.boudaries.mapper.CompanyMapper
-import com.exemplo.resourceServer.infra.entity.Company
-import com.exemplo.resourceServer.infra.repository.CompanyRepository
+import com.exemplo.resourceServer.boudaries.mapper.company.CompanyMapper
+import com.exemplo.resourceServer.infra.entity.company.Company
+import com.exemplo.resourceServer.infra.repository.company.CompanyRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
@@ -16,7 +16,6 @@ class CreateCompanyUseCase {
 
     fun execute(request: CreateCompanyRequest): Company {
         val company = companyMapper.toCreationCompanyEntity(request)
-        val a = companyRepository.save(company)
-        return a
+        return companyRepository.save(company)
     }
 }

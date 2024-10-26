@@ -1,6 +1,6 @@
-package com.exemplo.resourceServer.infra.repository
+package com.exemplo.resourceServer.infra.repository.company
 
-import com.exemplo.resourceServer.infra.entity.Company
+import com.exemplo.resourceServer.infra.entity.company.Company
 import org.springframework.data.mongodb.repository.MongoRepository
 
 interface CompanyRepository : MongoRepository<Company, String> {}

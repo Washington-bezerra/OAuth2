@@ -1,4 +1,4 @@
-package com.exemplo.resourceServer.infra.entity
+package com.exemplo.resourceServer.infra.entity.company
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

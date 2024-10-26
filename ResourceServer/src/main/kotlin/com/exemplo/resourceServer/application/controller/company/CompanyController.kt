@@ -2,7 +2,7 @@ package com.exemplo.resourceServer.application.controller.company
 
 import com.exemplo.resourceServer.application.controller.company.request.CreateCompanyRequest
 import com.exemplo.resourceServer.application.controller.company.response.CreateCompanyResponse
-import com.exemplo.resourceServer.application.usecase.CreateCompanyUseCase
+import com.exemplo.resourceServer.application.usecase.company.CreateCompanyUseCase
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
