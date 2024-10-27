@@ -1,10 +1,9 @@
-server:
-  port: 8081
-
 spring:
   application:
     name: AuthorizationServer
-
+    port: 8080
   data:
     mongodb:
-      uri: mongodb://root:example@localhost:27017/your_database_name
+      host: localhost
+      port: 27017
+      database: authorizationServer
